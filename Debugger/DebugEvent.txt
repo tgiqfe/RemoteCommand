@@ -1,0 +1,10 @@
+﻿# ==============================================================
+# Debug
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+-ExecutionPolicy Unrestricted -NoExit -Command "Import-Module ..\..\..\RemoteCommand\bin\Debug\RemoteCommand.dll"
+
+# ==============================================================
+# Release
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+-ExecutionPolicy Unrestricted -NoExit -Command "Import-Module ..\..\..\RemoteCommand\bin\Release\RemoteCommand.dll"
+
